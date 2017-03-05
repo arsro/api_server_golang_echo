@@ -1,8 +1,12 @@
-hash: 3441bf6ff6d443d7e65fcdfc4f1d1b67e506cee012ed3b4901bbe2aab9890aa9
-updated: 2017-03-03T14:58:17.225381824+09:00
+hash: 8548deb31341a7a3635f8778dda216d1970e847adf5b34031fb8a7801043ba06
+updated: 2017-03-03T15:32:29.488840778+09:00
 imports:
 - name: github.com/dgrijalva/jwt-go
   version: 2268707a8f0843315e2004ee4f1d021dc08baedf
+- name: github.com/go-sql-driver/mysql
+  version: 2e00b5cd70399450106cec6431c2e2ce3cae5034
+- name: github.com/gocraft/dbr
+  version: 10fa49bf1ee63a0f822283ef9805d818f9e84742
 - name: github.com/labstack/echo
   version: b218599906af51421ae6d6e6f4a8299cb6a468ea
   subpackages:
@@ -18,6 +22,8 @@ imports:
   version: d898aa9fb31c91f35dd28ca75db377eff023c076
 - name: github.com/mattn/go-isatty
   version: dda3de49cbfcec471bd7a70e6cc01fcc3ff90109
+- name: github.com/Sirupsen/logrus
+  version: 0208149b40d863d2c1a2f8fe5753096a9cf2cc8b
 - name: github.com/valyala/bytebufferpool
   version: e746df99fe4a3986f4d4f79e13c1e0117ce9c2f7
 - name: github.com/valyala/fasttemplate
