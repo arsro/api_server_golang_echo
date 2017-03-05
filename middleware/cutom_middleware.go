@@ -22,6 +22,7 @@ func TransactionHandler(db *dbr.Session) echo.MiddlewareFunc {
 				logrus.Error("transction error: ", err)
 				return err
 			}
+			defer tx.RollbackUnlessCommitted()// この function の終了時に実行される
 			
 			// Set saves data in the context.
 			c.Set(config.TX_KEY, tx)
